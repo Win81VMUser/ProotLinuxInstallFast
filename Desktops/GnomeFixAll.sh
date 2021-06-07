@@ -14,4 +14,4 @@ echo "Seems to be fine... Lets start desktop!"
 echo "To kill vnc type vncserver -kill :*"
 sudo service dbus start && tigervncserver -xstartup /usr/lib/gnome-flashback/gnome-flashback-metacity
 echo Start command is
-echo "service dbus start && tigervncserver -xstartup /usr/lib/gnome-flashback/gnome-flashback-metacity"
+echo service dbus start && tigervncserver -xstartup /usr/lib/gnome-flashback/gnome-flashback-metacity
