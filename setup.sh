@@ -1,4 +1,5 @@
 echo Installing Proot-Distro
+pkg install pulseaudio -y
 pkg install proot-distro -y
 clear
 echo Downloading scripts...
