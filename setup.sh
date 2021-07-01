@@ -15,6 +15,7 @@ wget https://raw.githubusercontent.com/Win81VMUser/ProotLinuxInstallFast/main/St
 wget https://raw.githubusercontent.com/Win81VMUser/ProotLinuxInstallFast/main/Stuff/start-ubuntu18.sh
 wget https://raw.githubusercontent.com/Win81VMUser/ProotLinuxInstallFast/main/Stuff/start-debian.sh
 wget https://raw.githubusercontent.com/Win81VMUser/ProotLinuxInstallFast/main/removeall.sh
+wget https://raw.githubusercontent.com/Win81VMUser/ProotLinuxInstallFast/main/Stuff/audio-termux.sh
 clear
 echo Creating dirs and moving files into it & sleep 2
 mkdir debian
