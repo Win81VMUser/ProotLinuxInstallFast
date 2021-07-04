@@ -62,5 +62,3 @@ distro_setup() {
 	#run_proot_cmd apt upgrade -yq
 	:
 }
-debian-sid.sh
-2 KB
