@@ -16,15 +16,21 @@ wget https://raw.githubusercontent.com/Win81VMUser/ProotLinuxInstallFast/main/St
 wget https://raw.githubusercontent.com/Win81VMUser/ProotLinuxInstallFast/main/Stuff/start-ubuntu18.sh
 wget https://raw.githubusercontent.com/Win81VMUser/ProotLinuxInstallFast/main/Stuff/start-debian.sh
 wget https://raw.githubusercontent.com/Win81VMUser/ProotLinuxInstallFast/main/removeall.sh
+wget https://github.com/Win81VMUser/ProotLinuxInstallFast/blob/main/Stuff/install-alpine.sh
+wget https://github.com/Win81VMUser/ProotLinuxInstallFast/blob/main/Stuff/remove-alpine.sh
+wget https://github.com/Win81VMUser/ProotLinuxInstallFast/blob/main/Stuff/reset-alpine.sh
+wget https://github.com/Win81VMUser/ProotLinuxInstallFast/blob/main/Stuff/start-alpine.sh
 wget https://raw.githubusercontent.com/Win81VMUser/ProotLinuxInstallFast/main/Stuff/audio-termux.sh
 clear
 echo Creating dirs and moving files into it & sleep 2
 mkdir debian
 mkdir ubuntu20
 mkdir ubuntu18
+mkdir alpine-linux
 mv *-ubuntu18* ubuntu18
 mv *-ubuntu20* ubuntu20
 mv *-debian* debian
+mv *-alpine alpine-linux
 clear
 echo Now launch scripts by typing ex. debian/install-debian.sh and debian/start-debian.sh & sleep 3
 echo Creating shortcuts for fast access ONLY START COMMANDS!
